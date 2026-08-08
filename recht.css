@@ -49,38 +49,3 @@ footer{position:relative;z-index:2;border-top:1px solid var(--line);padding:44px
 footer a{margin:0 12px;text-decoration:none;color:var(--haze)}
 footer a:hover{color:var(--g1)}
 @media(max-width:640px){main{padding:44px 18px 70px}table{font-size:12.5px}}
-
-/* Fuer AGB und Widerruf */
-.hinweis{border-left:2px solid var(--g2);padding:16px 20px;margin:24px 0 34px;
- background:rgba(199,154,60,.05)}
-.hinweis p{margin:0;font-size:13.5px;color:var(--haze2)}
-.formular{border:1px dashed rgba(255,255,255,.14);padding:24px 26px;margin:20px 0;
- background:rgba(255,255,255,.014)}
-.formular p{margin:0 0 12px;font-size:14px}
-.anschrift{font-family:var(--fm);font-size:13px;line-height:1.9;
- border-left:1px solid rgba(255,255,255,.12);padding-left:16px;margin:16px 0}
-.stand{font-family:var(--fm);font-size:11px;color:var(--haze);margin-top:40px}
-hr{border:0;border-top:1px solid rgba(255,255,255,.09);margin:56px 0}
-footer{margin-top:56px;padding-top:24px;border-top:1px solid rgba(255,255,255,.09);
- display:flex;gap:22px;flex-wrap:wrap}
-footer a{font-family:var(--fm);font-size:11px;letter-spacing:.14em;text-transform:uppercase;
- color:var(--haze);text-decoration:none;transition:.25s}
-footer a:hover{color:var(--g1)}
-.zurueck{display:inline-block;font-family:var(--fm);font-size:11px;letter-spacing:.18em;
- text-transform:uppercase;color:var(--haze);text-decoration:none;margin-bottom:34px;transition:.25s}
-.zurueck:hover{color:var(--g1)}
-
-.dienste{width:100%;border-collapse:collapse;margin:22px 0;font-size:13px}
-.dienste th{text-align:left;font-family:var(--fm);font-size:9px;letter-spacing:.18em;
- text-transform:uppercase;color:var(--g2);padding:10px 14px 10px 0;
- border-bottom:1px solid rgba(255,255,255,.12);font-weight:400}
-.dienste td{padding:12px 14px 12px 0;border-bottom:1px solid rgba(255,255,255,.05);
- color:var(--haze2);vertical-align:top;line-height:1.65}
-.dienste td:first-child{color:var(--paper)}
-@media(max-width:640px){
-  .dienste,.dienste tr,.dienste td,.dienste th{display:block;width:100%}
-  .dienste th{display:none}
-  .dienste tr{border-bottom:1px solid rgba(255,255,255,.09);padding:10px 0}
-  .dienste td{border:0;padding:3px 0}
-  .dienste td:first-child{font-size:15px;margin-bottom:4px}
-}
