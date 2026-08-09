@@ -164,8 +164,13 @@ h2{font-family:var(--fd);font-size:clamp(34px,4.6vw,58px);font-weight:300;line-h
 .buehneKern{position:relative;display:flex;flex-direction:column;align-items:center;
  justify-content:flex-start;min-height:520px;gap:0}
 
-.kernfeld{position:relative;width:min(300px,30vh);aspect-ratio:1;display:grid;place-items:center;
- flex:0 0 auto}
+/* Gleiche Regel wie in der App: drei Grenzen, es gilt die kleinste.
+ * Nie breiter als die Spalte, nie hoeher als ein Teil des Bildes, und eine
+ * Obergrenze fuer sehr grosse Schirme. So kann er nirgends abgeschnitten
+ * werden, weder auf dem Handy noch auf einem breiten Schirm im Auto.
+ */
+.kernfeld{position:relative;width:min(100%,46vh,480px);width:min(100%,46svh,480px);
+ max-width:100%;aspect-ratio:1;display:grid;place-items:center;flex:0 0 auto}
 /* Ersatzkugel, solange der Partikelkern nicht geladen ist. Danach blendet sie weg. */
 .orbfall{width:26%;height:26%;border-radius:50%;
  background:radial-gradient(circle at 38% 34%,#FFF6DC,#F7E7B4 34%,#C79A3C 62%,#5E4413 100%);
@@ -373,7 +378,7 @@ footer a:hover{color:var(--g1)}
   .held{justify-content:flex-end;padding:0 22px 110px}
   .block{padding:96px 0}
   .stkinner{grid-template-columns:1fr;gap:36px;padding:90px 22px 0}
-  .buehneKern{min-height:auto} .kernfeld{width:min(200px,42vw)}
+  .buehneKern{min-height:auto} .kernfeld{width:min(100%,32svh,300px)}
   .strom{max-width:none;margin-top:26px}
   .saetze{min-height:170px}
   .sticky{height:340vh}
