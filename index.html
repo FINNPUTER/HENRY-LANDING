@@ -4,6 +4,12 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>HENRY</title>
+<!-- Browsersymbol und Startbildschirm. Der Kopf aus dem Zeichen, ohne
+     Schriftzug: bei 32 Pixeln waere der unlesbar. -->
+<link rel="icon" type="image/png" sizes="32x32" href="icon-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="icon-192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="icon-180.png">
+<meta name="theme-color" content="#060A12">
 <meta name="description" content="Ihr digitaler Butler. Er kennt Sie, und Sie sehen genau, was er weiß.">
 <meta property="og:title" content="HENRY">
 <meta property="og:description" content="Ihr digitaler Butler. Er kennt Sie, und Sie sehen genau, was er weiß.">
@@ -718,6 +724,14 @@ footer a:hover{color:var(--g1)}
   .gz{max-width:96%}
   .gz p{font-size:14px}
 }
+
+/* ================================================= Das Zeichen im Fuss
+ * Bewusst zurueckhaltend: es steht am Ende der Seite, nicht am Anfang.
+ * Der Kopf gehoert dem Kern, hier ist Platz fuer die Unterschrift.
+ */
+.footzeichen{display:block;width:min(300px,60vw);height:auto;margin:0 auto 22px;
+ opacity:.94}
+@media(max-width:700px){ .footzeichen{width:min(230px,66vw);margin-bottom:16px} }
 </style>
 </head>
 <body>
@@ -1202,7 +1216,13 @@ footer a:hover{color:var(--g1)}
 </div>
 
 <footer>
-  <span class="mk">HENRY</span>
+  <!-- Das Zeichen statt des blossen Schriftworts. Zwei Fassungen, deutsch
+       und englisch; die Sprachumschaltung tauscht die Quelle. Als WebP,
+       weil dieselbe Datei als PNG das Fuenfzehnfache wiegt. -->
+  <img id="footZeichen" class="footzeichen"
+       src="henry-de.webp" srcset="henry-de.webp 560w, henry-de@2x.webp 1120w"
+       sizes="(max-width:700px) 60vw, 300px"
+       width="560" height="698" alt="HENRY" loading="lazy" decoding="async">
   <p data-t="footTag"></p>
   <p style="margin-top:20px"><a href="impressum.html" data-t="imprint"></a><a href="datenschutz.html" data-t="privacy"></a></p>
 </footer>
@@ -1214,6 +1234,16 @@ const T={"de":{"navWhat":"Was er kann","navMorning":"Der Lagebericht","navPrice"
 /* Gruppen-Vorschau. Erfundene Namen mit Absicht: auf einer oeffentlichen
  * Seite haben echte nichts zu suchen. Jonas und Katrin sind neutral genug,
  * dass sich jeder selbst darin sieht. */
+/* Das Zeichen im Fuss folgt der Sprache. Deutsch bekommt die deutsche
+ * Unterzeile, alles andere die englische. */
+function zeichenSetzen(sprache) {
+  const el = document.getElementById("footZeichen");
+  if (!el) return;
+  const n = sprache === "de" ? "henry-de" : "henry-en";
+  el.src = n + ".webp";
+  el.srcset = n + ".webp 560w, " + n + "@2x.webp 1120w";
+}
+
 const GR = {
   de: {
     grKicker: "ZU ZWEIT", grTitel: "Zwei Butler, ein Raum.",
@@ -1313,6 +1343,7 @@ function splitten(el,text){
     `<span class="wort" style="transition-delay:${i*60}ms">${w}</span>`).join(" ");
 }
 function setzen(){
+  zeichenSetzen(L);          /* das Zeichen im Fuss folgt der Sprache */
   document.documentElement.lang=L;
   document.querySelectorAll("[data-t]").forEach(el=>el.textContent=T[L][el.dataset.t]||"");
   document.querySelectorAll("[data-split]").forEach(el=>splitten(el,T[L][el.dataset.split]||""));
