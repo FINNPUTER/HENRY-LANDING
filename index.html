@@ -100,7 +100,12 @@ nav .cta{isolation:isolate}
             linear-gradient(180deg,rgba(6,10,18,.7) 0%,transparent 22%,transparent 64%,var(--ink) 99%)}
 .held{position:relative;z-index:4;height:100%;max-width:1240px;margin:0 auto;padding:150px 40px 0;
  display:flex;flex-direction:column;justify-content:center;will-change:transform,opacity}
+/* Die Begruessungszeile ist entfallen; die Regel bleibt fuer den Fall,
+ * dass wir sie an anderer Stelle wieder einsetzen. Ihr Abstand von 26
+ * Pixeln fiel damit weg, deswegen bekommt der Schriftzug ihn jetzt selbst,
+ * sonst klebt er an der Kopfleiste. */
 .eyebrow{font-family:var(--fm);font-size:10.5px;letter-spacing:.52em;color:var(--g2);margin-bottom:26px;opacity:0;animation:rein .8s .12s forwards}
+h1#titel{margin-top:26px}
 h1{font-family:var(--fd);font-size:clamp(56px,9.2vw,116px);font-weight:300;letter-spacing:.15em;line-height:1;display:flex;text-indent:.15em}
 h1 span{display:inline-block;opacity:0;transform:translateY(50px);animation:auf .8s cubic-bezier(.16,1,.3,1) forwards;
  background:linear-gradient(135deg,#F7E7B4 0%,#FFFDF6 22%,#D9B45C 44%,#F7E7B4 60%,#C79A3C 100%);
@@ -774,11 +779,12 @@ footer a:hover{color:var(--g1)}
     <video id="vFilm" poster="poster.jpg" muted loop playsinline preload="none"></video>
   </div>
   <div class="held" id="held">
-    <p class="eyebrow" data-t="eyebrow"></p>
-    <!-- Der grosse Schriftzug HENRY stand hier direkt unter der Begruessung.
-         Fuer einen Besucher las sich das, als wuerde HIER jemand HENRY
-         begruessen, nicht ihn selbst. Der Name steht links oben in der
-         Leiste, das reicht. -->
+    <!-- HIER STAND EINE BEGRUESSUNG NACH DER UHRZEIT ("GUTEN ABEND").
+         Direkt darunter der Schriftzug HENRY. Fuer einen Besucher las sich
+         das, als wuerde hier jemand HENRY begruessen statt ihn selbst.
+         Weggefallen ist die Begruessung, NICHT der Schriftzug: der ist die
+         Marke und gehoert an diese Stelle. -->
+    <h1 id="titel" class="glanz"></h1>
     <div class="rule"></div>
     <p class="claim" data-t="claim"></p>
     <p class="sub" data-t="sub"></p>
@@ -1341,9 +1347,10 @@ addEventListener("hashchange",()=>zeigeAnsicht(location.hash.slice(1)||"start"))
 const browserSprache=(navigator.language||"de").slice(0,2).toLowerCase();
 let L = (gespeichert && T[gespeichert]) ? gespeichert : (T[browserSprache] ? browserSprache : "en");
 
-/* Der grosse Schriftzug in der Hero ist entfallen. Diese Zeile haette
- * ohne ihn eine Ausnahme geworfen und damit das GANZE Skript der Seite
- * abgebrochen: keine Sprachumschaltung, keine Preise, nichts. */
+/* Buchstabe fuer Buchstabe, damit sie nacheinander erscheinen und der
+ * Goldschimmer darueberlaeuft. */
+$("titel").innerHTML="HENRY".split("").map((b,i)=>
+  `<span style="animation-delay:${.12+i*.055}s,1.2s">${b}</span>`).join("");
 
 function splitten(el,text){
   el.innerHTML=text.split(" ").map((w,i)=>
@@ -1354,11 +1361,10 @@ function setzen(){
   document.documentElement.lang=L;
   document.querySelectorAll("[data-t]").forEach(el=>el.textContent=T[L][el.dataset.t]||"");
   document.querySelectorAll("[data-split]").forEach(el=>splitten(el,T[L][el.dataset.split]||""));
-  // Begruessung nach der Uhrzeit, nicht fest eingetragen
-  const h=new Date().getHours();
-  const stufe = h<5 ? 0 : h<11 ? 1 : h<18 ? 2 : 3;
-  const eb=document.querySelector('[data-t="eyebrow"]');
-  if(eb && T[L].gruss) eb.textContent = T[L].gruss[stufe];
+  /* Die Begruessung nach der Uhrzeit ist entfallen. Sie sprach den
+   * Besucher an, stand aber ueber dem Namen HENRY und las sich dadurch
+   * wie eine Ansprache AN HENRY. Die Sprachtexte dafuer bleiben stehen,
+   * falls wir sie an anderer Stelle wieder brauchen. */
   $("lang").textContent=L.toUpperCase();
   document.querySelectorAll("#sprachliste button").forEach((b)=>
     b.classList.toggle("an", b.dataset.l===L));
