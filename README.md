@@ -16,7 +16,9 @@ Eine Datei, keine Abhaengigkeiten, laeuft auf GitHub Pages.
 - poster.jpg          Standbild, bis das Video geladen ist
 - henry-stimme.mp3    FEHLT NOCH. Siehe STIMME.md
 
-Ohne henry-stimme.mp3 laeuft alles, der Tonknopf macht dann nur nichts.
+Ohne henry-stimme.mp3 laeuft alles. Der Tonknopf wird dann gar nicht erst
+angezeigt, statt beim Antippen nichts zu tun, und es gibt keinen 404 mehr.
+Sobald die Datei in diesem Ordner liegt, erscheint der Knopf von selbst.
 
 ## Was Du noch aendern musst
 
