@@ -215,9 +215,16 @@
   </ul>
 
   <h2>11. Sicherung und Verfügbarkeit</h2>
-  <p>Ihre Daten liegen in einer Postgres-Datenbank bei Railway. Zusätzlich zu den
-  Sicherungen des Anbieters führen wir eigene Kopien außerhalb dieser Umgebung,
-  damit Ihre Daten auch dann noch da sind, wenn dort etwas ausfällt.</p>
+  <!-- HIER STAND ETWAS, DAS NICHT STIMMTE.
+       Der Satz versprach eigene Sicherungskopien AUSSERHALB der
+       Railway-Umgebung. Die gibt es nicht. Es gibt die Sicherungen des
+       Anbieters samt Wiederherstellung auf einen Zeitpunkt, mehr nicht.
+       Eine Datenschutzerklaerung darf nicht mehr versprechen, als
+       tatsaechlich passiert; im Ernstfall ist das der Satz, an dem man
+       haengt. Sobald es wirklich externe Kopien gibt, gehoert er zurueck. -->
+  <p>Ihre Daten liegen in einer Postgres-Datenbank bei Railway, mit den
+  Sicherungen des Anbieters und der Möglichkeit, den Stand eines bestimmten
+  Zeitpunkts wiederherzustellen.</p>
   <p>Trotzdem gilt: <strong>Kein Anbieter der Welt kann Ihnen eine hundertprozentige
   Verfügbarkeit zusichern</strong>, und wir tun es auch nicht. Wenn Ihre Daten für Sie
   wichtig sind, laden Sie sie regelmäßig selbst herunter. Der Knopf dafür ist einen
