@@ -1,0 +1,231 @@
+[
+  {
+    "datei": "kuendigungsfristen.html",
+    "kurz": "Kündigungsfristen",
+    "titel": "Kündigungsfrist verpasst? So behalten Sie jede Frist im Blick",
+    "beschreibung": "Verträge verlängern sich still um ein Jahr, wenn die Kündigungsfrist verstreicht. HENRY liest die Frist aus Ihrer Police und meldet sich rechtzeitig vorher.",
+    "h1": "Kündigungsfrist verpasst, und der Vertrag läuft ein Jahr weiter",
+    "antwort": "Die meisten Verträge verlängern sich automatisch, wenn nicht rechtzeitig gekündigt wird. Bei Versicherungen sind drei Monate vor Ablauf üblich, bei Mobilfunk und Strom oft ein Monat. Wer die Frist verpasst, zahlt ein weiteres Jahr. <b>Der Ausweg ist nicht Disziplin, sondern dass jemand anders sich das merkt.</b> Genau das tut HENRY: Er liest die Frist aus dem Dokument selbst und meldet sich rechtzeitig vorher.",
+    "abschnitte": [
+      {
+        "titel": "Warum Erinnerungen im Kalender selten funktionieren",
+        "text": "<p>Eine Frist in den Kalender zu schreiben setzt drei Dinge voraus: Man muss die Police lesen, die Frist finden und den Eintrag anlegen. In der Praxis passiert das beim Abschluss, danach nie wieder. Kommt ein Nachtrag mit geänderter Laufzeit, steht der alte Eintrag noch da und ist falsch.</p><p>Dazu kommt: Die Frist ist meist nicht das Vertragsende, sondern ein Datum davor. Wer sich den Ablauf notiert, ist am Stichtag schon zu spät.</p>"
+      },
+      {
+        "titel": "Was HENRY dabei wirklich tut",
+        "text": "<p>Kommt eine Police als PDF ins Postfach, liest er das Dokument und zieht heraus: Versicherer, Versicherungsschein-Nummer, Beitrag, Beginn, Ablauf, Kündigungsfrist und den versicherten Ort. Nicht als Bild abgelegt, sondern als Angaben, mit denen sich rechnen lässt.</p><p>Aus Ablauf und Frist ergibt sich der Stichtag. Den behält er, und er meldet sich rechtzeitig vorher, in der App und auf Telegram. Steht im Dokument keine Frist, sagt er das, statt eine zu erfinden.</p>"
+      },
+      {
+        "titel": "Auch für Verträge, die keine Versicherung sind",
+        "text": "<p>Dieselbe Auswertung greift bei Mobilfunk, Strom, Gas, Wartungsverträgen und Abonnements. Überall dort, wo Vertragsnummer, Laufzeit und Kündigungsfrist im Schreiben stehen.</p><p>Und er sammelt: Fragen Sie ihn, welche Verträge er kennt, und er zählt sie auf, mit Nummer, Beitrag und nächstem Stichtag.</p>"
+      },
+      {
+        "titel": "Was er ausdrücklich nicht tut",
+        "text": "<p>Er kündigt nichts von selbst. Er meldet sich, und die Entscheidung bleibt bei Ihnen. Auf Wunsch setzt er ein Kündigungsschreiben auf, aber auch das geht erst hinaus, wenn Sie es freigegeben haben.</p><p>Er löscht auch keine E-Mails. Was er im Postfach bewegt, sehen Sie im Verlauf, mit Betreffzeile.</p>"
+      }
+    ],
+    "fragen": [
+      { "frage": "Woher weiß HENRY, wann eine Frist abläuft?",
+        "antwort": "Er liest das Dokument. Aus einer Police zieht er Ablaufdatum und Kündigungsfrist heraus und rechnet daraus den Stichtag. Steht dort keine Frist, sagt er das offen." },
+      { "frage": "Was ist, wenn die Police nur eingescannt ist?",
+        "antwort": "Ein Scan ohne Textebene lässt sich nicht lesen. Dann sagt HENRY das und bittet Sie, ihm die Angaben zu nennen. Er tut nicht so, als hätte er gelesen." },
+      { "frage": "Kündigt HENRY selbständig?",
+        "antwort": "Nein. Er meldet sich rechtzeitig und setzt auf Wunsch ein Schreiben auf. Versendet wird nichts ohne Ihre ausdrückliche Freigabe." },
+      { "frage": "Wie früh meldet er sich?",
+        "antwort": "Rechtzeitig vor dem Stichtag, und Sie können den Vorlauf selbst festlegen. Bei einer Frist von drei Monaten meldet er sich also deutlich vor dem Ablaufdatum, nicht am Ablauftag." },
+      { "frage": "Was kostet das?",
+        "antwort": "Ab 17 Euro im Monat. Eine einzige übersehene Kündigungsfrist kostet in der Regel mehr." }
+    ],
+    "schluss": "Eine übersehene Frist kostet ein Jahresabo. HENRY kostet 17 Euro im Monat."
+  },
+
+  {
+    "datei": "rechnungen-aus-emails.html",
+    "kurz": "Rechnungen aus E-Mails",
+    "titel": "Rechnungen automatisch aus E-Mails herausziehen und ablegen",
+    "beschreibung": "Rechnungen und Belege kommen als PDF im Postfach an und bleiben dort liegen. HENRY holt sie heraus, liest Betrag und Nummer und legt sie ab.",
+    "h1": "Rechnungen automatisch aus dem Postfach holen und ablegen",
+    "antwort": "Rechnungen kommen als PDF im Anhang, verteilt über Monate, zwischen Werbung und Newslettern. Sie herauszusuchen ist keine schwierige Arbeit, sondern eine lästige. <b>HENRY nimmt sie Ihnen ab:</b> Er sieht das Postfach durch, erkennt Rechnungen und Belege, liest Nummer, Betrag und Fälligkeit heraus und legt sie geordnet ab.",
+    "abschnitte": [
+      {
+        "titel": "Warum Suchen im Postfach nicht reicht",
+        "text": "<p>Eine Suche nach \"Rechnung\" findet Werbung mit dem Wort Rechnung und übersieht die Abrechnung, die anders heißt. Sie findet auch nichts über den Inhalt des Anhangs, denn der Betreff sagt oft nur \"Ihre Unterlagen\".</p><p>Dazu kommt: Viele Absender schicken PDFs mit einem Dateityp, den das Postfach nicht als PDF erkennt. Wer nur danach filtert, verliert sie.</p>"
+      },
+      {
+        "titel": "Was HENRY dabei wirklich tut",
+        "text": "<p>Er erkennt Anhänge über Dateityp <b>und</b> Endung, damit falsch ausgezeichnete PDFs nicht durchfallen, und lässt eingebettete Signaturbilder draußen. Dann liest er das Dokument und zieht heraus: Rechnungsnummer, Betrag, Rechnungsdatum, Fälligkeit, Absender.</p><p>Beträge werden dabei in deutscher Schreibweise gelesen: Aus 1.187,40 Euro werden nicht 118.740. Was nicht im Dokument steht, wird nicht ergänzt.</p>"
+      },
+      {
+        "titel": "Einmal sagen, danach von selbst",
+        "text": "<p>Sie können ihm einen Dauerauftrag geben: \"Rechnungen legst du künftig immer ab und verschiebst sie in den Ordner Rechnungen.\" Ab dann sieht er alle fünf Minuten nach und erledigt es, ohne zu fragen.</p><p>Er meldet dabei, was er getan hat, mit Absender, Betreff und Betrag. Nicht nur eine Zahl: An einer Zahl sieht man nicht, ob die richtigen Nachrichten bewegt wurden.</p>"
+      },
+      {
+        "titel": "Ein ganzes Jahr auf einmal",
+        "text": "<p>Beim ersten Verbinden kann HENRY das Postfach der letzten zwölf Monate durchgehen. Das läuft im Hintergrund, dauert etwa zwanzig Minuten, und er meldet sich, wenn er fertig ist. Sie müssen nicht dabeisitzen.</p><p>Am Ende steht eine Übersicht: welche Abos laufen, welche Verträge, welche Rechnungen offen sind, ob eine Mahnung dabei ist.</p>"
+      }
+    ],
+    "fragen": [
+      { "frage": "Welche Postfächer funktionieren?",
+        "antwort": "Alle, die IMAP anbieten, also Gmail, Outlook, GMX, Web.de, T-Online, IONOS und die meisten anderen. Bei Gmail wird ein App-Passwort verwendet, HENRY führt Sie Schritt für Schritt hindurch." },
+      { "frage": "Löscht HENRY E-Mails?",
+        "antwort": "Nie. Er verschiebt höchstens in einen Ordner, und auch das nur auf ausdrücklichen Auftrag. Jede Bewegung steht mit Betreffzeile im Verlauf." },
+      { "frage": "Liest er auch eingescannte Rechnungen?",
+        "antwort": "Nur wenn das PDF eine Textebene hat, was bei digital erzeugten Rechnungen fast immer der Fall ist. Bei einem reinen Scan sagt er, dass er nichts lesen konnte." },
+      { "frage": "Kann ich die Belege exportieren?",
+        "antwort": "Ja. Alles Abgelegte liegt im Aktenschrank und lässt sich herunterladen, etwa für den Steuerberater." },
+      { "frage": "Sieht jemand meine Rechnungen?",
+        "antwort": "Die Daten liegen verschlüsselt in einer Datenbank in der EU. Zugangsdaten zum Postfach werden verschlüsselt abgelegt." }
+    ],
+    "schluss": "Sagen Sie es einmal. Danach macht er es jeden Tag."
+  },
+
+  {
+    "datei": "belege-steuerberater.html",
+    "kurz": "Belege für den Steuerberater",
+    "titel": "Belege für den Steuerberater sammeln, ohne im März zu suchen",
+    "beschreibung": "Belege übers Jahr sammeln statt im März zusammensuchen. HENRY holt sie laufend aus dem Postfach und legt sie nach Jahr geordnet ab.",
+    "h1": "Belege sammeln, ohne im März das ganze Jahr zu durchsuchen",
+    "antwort": "Der Aufwand bei der Steuer entsteht nicht beim Rechnen, sondern beim Suchen. Belege liegen verstreut im Postfach, in Portalen, in Ordnern. <b>Wer sie das Jahr über sammelt, hat im März nichts zu tun.</b> HENRY holt sie laufend aus der ankommenden Post und legt sie nach Jahr geordnet ab.",
+    "abschnitte": [
+      {
+        "titel": "Warum es im März so lange dauert",
+        "text": "<p>Zwölf Monate Postfach durchzusehen heißt, jede Nachricht einzeln anzusehen und zu entscheiden, ob ein Beleg dranhängt. Bei ein paar tausend Nachrichten sind das mehrere Abende. Und was übersehen wird, fehlt.</p><p>Dazu kommen die wiederkehrenden Kleinbeträge, die zusammen viel ausmachen: Software-Abos, Cloudspeicher, Fachliteratur, Telefon.</p>"
+      },
+      {
+        "titel": "Was HENRY dabei wirklich tut",
+        "text": "<p>Er sichtet Eingang und Ausgang, erkennt Rechnungen und Belege, liest Nummer, Betrag und Datum heraus und legt sie im Aktenschrank unter dem passenden Jahr ab. Auf Wunsch verschiebt er die Nachricht dazu in einen eigenen Ordner.</p><p>Er kann auch rückwirkend arbeiten: bis zu zwölf Monate im Hintergrund, ohne dass Sie dabeisitzen müssen.</p>"
+      },
+      {
+        "titel": "Auch die Abos, die niemand mehr auf dem Schirm hat",
+        "text": "<p>Beim Durchsehen erkennt er laufende Abonnements und Verträge und zählt sie auf, mit Betrag und Zahlweise. Das ist zweierlei wert: Es gehört in die Steuer, und manches davon will man gar nicht mehr haben.</p>"
+      }
+    ],
+    "fragen": [
+      { "frage": "Ersetzt HENRY meinen Steuerberater?",
+        "antwort": "Nein, und er versucht es auch nicht. Er sammelt und ordnet die Belege, damit Ihr Steuerberater sie bekommt. Steuerberatung leistet er nicht." },
+      { "frage": "In welchem Format bekomme ich die Belege?",
+        "antwort": "So, wie sie angekommen sind, meist als PDF, geordnet nach Jahr, mit den ausgelesenen Angaben daneben." },
+      { "frage": "Wie weit kann er zurückgehen?",
+        "antwort": "Zwölf Monate im Hintergrundauftrag, ältere Zeiträume auf Nachfrage, soweit die Nachrichten im Postfach noch vorhanden sind." },
+      { "frage": "Was ist mit Belegen aus Portalen?",
+        "antwort": "Was per E-Mail kommt, erkennt er. Was nur in einem Kundenportal liegt, muss weiterhin dort heruntergeladen werden; abgelegt bekommt er es, wenn Sie es ihm geben." }
+    ],
+    "schluss": "Im März nicht mehr das ganze Jahr zusammensuchen."
+  },
+
+  {
+    "datei": "postfach-aufraeumen.html",
+    "kurz": "Postfach aufräumen",
+    "titel": "Posteingang aufräumen lassen, ohne dass etwas verschwindet",
+    "beschreibung": "Ein Butler, der die Post sichtet, einsortiert und Newsletter abbestellt. Er löscht nichts und zeigt jede Bewegung mit Betreffzeile.",
+    "h1": "Den Posteingang aufräumen lassen, ohne Angst um wichtige Post",
+    "antwort": "Die meisten Aufräumhilfen für das Postfach haben dasselbe Problem: Sie bewegen viel auf einmal, und hinterher weiß niemand, was wohin gegangen ist. <b>HENRY macht es umgekehrt:</b> Er räumt nur auf ausdrücklichen Auftrag auf, löscht nie etwas, und zu jeder Bewegung nennt er die Betreffzeile.",
+    "abschnitte": [
+      {
+        "titel": "Erst sichten, dann entscheiden",
+        "text": "<p>Bevor irgendetwas bewegt wird, sieht er durch und berichtet: welche Abonnements laufen, welche Verträge, welche Rechnungen offen sind, ob eine Mahnung dabei ist, ob Behördenpost kam.</p><p>Erst danach entscheiden Sie, was einsortiert werden soll.</p>"
+      },
+      {
+        "titel": "Einmal anordnen, danach von selbst",
+        "text": "<p>\"Rechnungen künftig immer in den Ordner Rechnungen\" genügt. Ab dann erledigt er es bei ankommender Post und meldet, was er getan hat, mit Absender, Betreff und Betrag.</p><p>Ohne einen solchen Dauerauftrag bewegt er nichts. Das ist bewusst so: Eine verschobene Mail ist für den Menschen erst einmal verschwunden.</p>"
+      },
+      {
+        "titel": "Newsletter, die man nie bestellt hat",
+        "text": "<p>Er findet die Abbestellen-Links und bestellt auf Wunsch ab. Auch das nur nach Rückfrage, denn unter Newslettern sind manchmal Vertragsmitteilungen, die man behalten will.</p>"
+      },
+      {
+        "titel": "Und Sie sehen alles",
+        "text": "<p>Im Verlauf steht jeder Vorgang mit Datum und Betreffzeile. Nicht \"acht Nachrichten verschoben\", sondern welche acht. An einer Zahl sieht man nicht, ob die richtigen bewegt wurden.</p>"
+      }
+    ],
+    "fragen": [
+      { "frage": "Kann HENRY versehentlich etwas löschen?",
+        "antwort": "Er hat kein Werkzeug zum Löschen von E-Mails. Er kann nur verschieben, und das nur auf Auftrag." },
+      { "frage": "Räumt er von selbst auf?",
+        "antwort": "Nein. Ohne ausdrücklichen Dauerauftrag bewegt er keine einzige Nachricht." },
+      { "frage": "Was, wenn er etwas falsch einsortiert?",
+        "antwort": "Sie sehen es im Verlauf mit Betreffzeile und können ihn bitten, es zurückzuholen. Nichts ist verloren, es liegt nur in einem anderen Ordner." },
+      { "frage": "Sieht er auch den Postausgang?",
+        "antwort": "Ja. Für die Frage, ob Sie auf etwas schon geantwortet haben, ist der Ausgang oft wichtiger als der Eingang." }
+    ],
+    "schluss": "Aufgeräumt wird nur, was Sie angeordnet haben. Und Sie sehen jede Bewegung."
+  },
+
+  {
+    "datei": "ki-assistent-dsgvo.html",
+    "kurz": "KI-Assistent und Datenschutz",
+    "titel": "KI-Assistent mit Datenschutz: Was HENRY speichert und was nicht",
+    "beschreibung": "Ein KI-Assistent mit Zugriff auf Postfach und Kalender wirft Datenschutzfragen auf. Hier steht, was HENRY speichert, wo es liegt und wie man es löscht.",
+    "h1": "Ein KI-Assistent am eigenen Postfach: Was gespeichert wird",
+    "antwort": "Ein Assistent, der Ihre Post liest, muss sich an anderen Maßstäben messen lassen als ein Chatfenster. <b>Die entscheidende Frage ist nicht, ob er etwas speichert, sondern ob Sie es sehen und löschen können.</b> Bei HENRY steht jede gespeicherte Zeile sichtbar in der App, einzeln löschbar. Das zeigt Ihnen sonst kaum jemand.",
+    "abschnitte": [
+      {
+        "titel": "Was gespeichert wird",
+        "text": "<p>Was Sie ihm sagen und was er daraus als Tatsache ablegt, etwa dass ein Termin stattgefunden hat oder wie Sie angesprochen werden möchten. Dazu Termine, Erinnerungen, abgelegte Dokumente und die Zugangsdaten zu Ihrem Postfach.</p><p>Ihre E-Mails werden nicht dauerhaft kopiert. Er liest sie, wenn er sie braucht.</p>"
+      },
+      {
+        "titel": "Wo es liegt",
+        "text": "<p>In einer Postgres-Datenbank in der EU. Zugangsdaten und Geheimnisse sind verschlüsselt abgelegt; wer die Datenbank hätte, könnte damit nichts anfangen.</p><p>Für die Sprachausgabe und die Spracherkennung werden Dienstleister eingesetzt. Welche das sind, steht in der Datenschutzerklärung.</p>"
+      },
+      {
+        "titel": "Was Sie sehen und ändern können",
+        "text": "<p>In der App gibt es einen eigenen Bereich für das Gedächtnis. Dort steht jede einzelne Zeile, die HENRY über Sie behält, im Klartext. Jede lässt sich löschen.</p><p>Dazu einen Verlauf: was er wann getan hat, mit Betreffzeilen. Und einen vollständigen Export Ihrer Daten.</p>"
+      },
+      {
+        "titel": "Was er ohne Freigabe nicht tut",
+        "text": "<p>Er versendet keine E-Mail, ohne dass Sie den Text gesehen und freigegeben haben. Er löscht keine E-Mails. Er verschiebt nichts ohne Auftrag. Und er ruft niemanden an, ohne dass Sie es angeordnet haben.</p><p>Ruft er in Ihrem Auftrag jemanden an, sagt er am Anfang des Gesprächs, dass er eine künstliche Intelligenz ist. Das ist seit August 2026 Pflicht.</p>"
+      }
+    ],
+    "fragen": [
+      { "frage": "Werden meine Daten zum Training verwendet?",
+        "antwort": "Nein." },
+      { "frage": "Kann ich alles löschen?",
+        "antwort": "Ja. Einzelne Zeilen im Gedächtnis jederzeit, und das ganze Konto samt allen Daten auf Wunsch." },
+      { "frage": "Wo stehen die Server?",
+        "antwort": "In der EU. Einzelheiten samt der eingesetzten Dienstleister stehen in der Datenschutzerklärung." },
+      { "frage": "Bekommt HENRY vollen Zugriff auf mein Postfach?",
+        "antwort": "Er bekommt Lesezugriff und darf verschieben. Ein Werkzeug zum Löschen von E-Mails hat er nicht. Bei Gmail wird ein eigenes App-Passwort verwendet, das Sie jederzeit widerrufen können." },
+      { "frage": "Was passiert, wenn ich kündige?",
+        "antwort": "Sie können Ihre Daten vorher vollständig exportieren. Danach wird das Konto mit allen Daten gelöscht." }
+    ],
+    "schluss": "Sie sehen jede Zeile, die er über Sie behält. Und können sie löschen."
+  },
+
+  {
+    "datei": "nebenkosten.html",
+    "kurz": "Nebenkosten und Vermietung",
+    "titel": "Nebenkostenabrechnung: Belege übers Jahr sammeln statt suchen",
+    "beschreibung": "Allgemeinstrom, Grundsteuer, Versicherung: HENRY erkennt umlagefähige Kosten in der ankommenden Post und ordnet sie dem richtigen Objekt zu.",
+    "h1": "Nebenkostenabrechnung: die Belege sammeln sich von selbst",
+    "antwort": "Der Aufwand bei der Nebenkostenabrechnung entsteht nicht beim Verteilen, sondern beim Zusammensuchen der Belege eines ganzen Jahres. <b>HENRY erkennt sie, wenn sie ankommen</b>, ordnet sie dem richtigen Objekt zu und merkt sich, was umlagefähig ist.",
+    "abschnitte": [
+      {
+        "titel": "Er erkennt, worum es geht",
+        "text": "<p>Kommt eine Jahresabrechnung der Stadtwerke, liest er Verbrauchsstelle, Zählernummer, Verbrauch, Betrag und neuen Abschlag heraus. Bei einem Grundsteuerbescheid das Aktenzeichen, die Lage des Grundstücks und den Betrag.</p>"
+      },
+      {
+        "titel": "Und er unterscheidet, was das belegt",
+        "text": "<p>Nicht jede Adresse auf einem Beleg bedeutet Eigentum. Eine Stromrechnung sagt, dass dort jemand wohnt; ein Mieter hat denselben Vertrag. Ein Grundsteuerbescheid oder eine Haus- und Grundbesitzerhaftpflicht dagegen zahlt der Eigentümer.</p><p><b>Beim Allgemeinstrom ist es eindeutig:</b> Treppenhaus, Keller, Außenbeleuchtung, Heizungspumpe. So eine Rechnung bekommt kein Mieter. HENRY erkennt sie und weist darauf hin, dass der Betrag in die Nebenkostenabrechnung gehört.</p>"
+      },
+      {
+        "titel": "Warum das den Unterschied macht",
+        "text": "<p>Ohne diese Zuordnung liegt die Rechnung ordentlich abgelegt im Aktenschrank und fehlt im März, wenn abgerechnet wird. Genau dieser Fehler fällt erst ein Jahr später auf.</p><p>HENRY bietet deshalb an, den Betrag direkt beim Objekt zu hinterlegen, samt Zeitraum.</p>"
+      },
+      {
+        "titel": "Objekte und Einheiten",
+        "text": "<p>Er führt Ihre Objekte mit Einheiten und den laufenden Kosten. Findet er auf einem Dokument eine Anschrift, die er noch nicht kennt, fragt er, ob er das Objekt anlegen soll. Er rät nicht, ob zwei ähnliche Anschriften dieselbe sind.</p>"
+      }
+    ],
+    "fragen": [
+      { "frage": "Erstellt HENRY die fertige Abrechnung?",
+        "antwort": "Er sammelt die Kosten je Objekt und rechnet sie nach dem hinterlegten Schlüssel auf die Einheiten um. Die rechtliche Prüfung der Abrechnung bleibt bei Ihnen oder Ihrer Verwaltung." },
+      { "frage": "Woher weiß er, was umlagefähig ist?",
+        "antwort": "Er erkennt die typischen Posten wie Allgemeinstrom, Grundsteuer und Gebäudeversicherung und weist darauf hin. Die Entscheidung, was Sie umlegen, treffen Sie." },
+      { "frage": "Was, wenn mir das Haus gar nicht gehört?",
+        "antwort": "Dann sagt er das auch. Eine Stromrechnung belegt nur die Nutzung, kein Eigentum. Bei Allgemeinstrom fragt er, ob Ihnen das Haus gehört oder ob Sie es verwalten." },
+      { "frage": "Funktioniert das auch für mehrere Objekte?",
+        "antwort": "Ja. Jedes Objekt hat seine eigenen Einheiten und Kosten." }
+    ],
+    "schluss": "Die Belege sammeln sich, während das Jahr vergeht."
+  }
+]

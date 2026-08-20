@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Alle Seiten von hyhenry.com. Die Sprachfassungen stehen NICHT als
+     eigene Adressen darin, weil es sie nicht gibt: Die Seite wechselt
+     die Sprache im Browser, unter derselben Adresse. Ein Eintrag je
+     Sprache waere eine Lüge gegenüber der Suchmaschine. -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://hyhenry.com/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://hyhenry.com/kuendigungsfristen.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://hyhenry.com/rechnungen-aus-emails.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://hyhenry.com/belege-steuerberater.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://hyhenry.com/postfach-aufraeumen.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://hyhenry.com/ki-assistent-dsgvo.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://hyhenry.com/nebenkosten.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url><loc>https://hyhenry.com/agb.html</loc><priority>0.3</priority></url>
+  <url><loc>https://hyhenry.com/datenschutz.html</loc><priority>0.3</priority></url>
+  <url><loc>https://hyhenry.com/erstattung.html</loc><priority>0.3</priority></url>
+  <url><loc>https://hyhenry.com/widerruf.html</loc><priority>0.3</priority></url>
+  <url><loc>https://hyhenry.com/impressum.html</loc><priority>0.3</priority></url>
+</urlset>

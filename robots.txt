@@ -1,0 +1,39 @@
+# HENRY, hyhenry.com
+#
+# Ausdrücklich AUCH für die Sammler der KI-Anbieter freigegeben. Das ist
+# eine Entscheidung, keine Nachlässigkeit: Wer heute nach einem
+# digitalen Butler fragt, fragt oft nicht mehr Google, sondern ein
+# Sprachmodell. Wer dort nicht vorkommt, kommt nicht vor.
+
+User-agent: *
+Allow: /
+
+# Die Sammler der KI-Anbieter, einzeln genannt, damit es dokumentiert ist
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+Sitemap: https://hyhenry.com/sitemap.xml
